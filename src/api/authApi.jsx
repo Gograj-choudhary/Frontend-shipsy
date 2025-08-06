@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const authApi = axios.create({
-  baseURL: "http://localhost:3000/api/v1/auth",
+  baseURL: "https://shipsy2.onrender.com/api/v1/auth",
 });
 
 // Request interceptor to attach access token
